@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="어서오세요"
+        android:textStyle="italic|bold"
+        android:textSize="30dp"
+        android:textColor="#2265d7"
+        android:id="@+id/notice_view"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="성명을 입력하세요"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/etName"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="확인"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/btn"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="안녕하세요"
+        android:textColor="#632dbf"
+        android:textSize="30dp"
+        android:id="@+id/tvName"/>
+</LinearLayout>
